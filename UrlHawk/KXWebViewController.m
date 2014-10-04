@@ -1,0 +1,41 @@
+//
+//  KXWebViewController.m
+//  
+//
+//  Created by Marco Bonifazi on 02/10/2014.
+//
+//
+
+#import "KXWebViewController.h"
+
+@interface KXWebViewController ()
+
+@end
+
+@implementation KXWebViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    NSURL *url = [NSURL URLWithString:self.urlString];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+
+    [self.webView loadRequest:urlRequest];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

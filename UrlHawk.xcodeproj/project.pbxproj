@@ -14,13 +14,24 @@
 		A672553D19BE11A1005FDACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A672553C19BE11A1005FDACB /* main.m */; };
 		A672554119BE11A1005FDACB /* KXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A672554019BE11A1005FDACB /* KXAppDelegate.m */; };
 		A672554419BE11A1005FDACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672554219BE11A1005FDACB /* Main.storyboard */; };
-		A672554719BE11A1005FDACB /* KXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A672554619BE11A1005FDACB /* KXViewController.m */; };
+		A672554719BE11A1005FDACB /* KXViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A672554619BE11A1005FDACB /* KXViewController.mm */; };
 		A672554919BE11A1005FDACB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A672554819BE11A1005FDACB /* Images.xcassets */; };
 		A672555019BE11A1005FDACB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672554F19BE11A1005FDACB /* XCTest.framework */; };
 		A672555119BE11A1005FDACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672553019BE11A1005FDACB /* Foundation.framework */; };
 		A672555219BE11A1005FDACB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672553419BE11A1005FDACB /* UIKit.framework */; };
 		A672555A19BE11A1005FDACB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A672555819BE11A1005FDACB /* InfoPlist.strings */; };
 		A672555C19BE11A1005FDACB /* UrlHawkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A672555B19BE11A1005FDACB /* UrlHawkTests.m */; };
+		A672556719BE1310005FDACB /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A672556619BE1310005FDACB /* AVCamPreviewView.m */; };
+		A68DE2DF19BE3E3900C52348 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DE2DE19BE3E3900C52348 /* opencv2.framework */; };
+		A68DE2E119BE418D00C52348 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DE2E019BE418D00C52348 /* AssetsLibrary.framework */; };
+		A68DE2E619BE45D700C52348 /* KXRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DE2E519BE45D700C52348 /* KXRectView.m */; };
+		A6966CD919DADA5300F182E0 /* KXDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6966CD819DADA5300F182E0 /* KXDrawView.m */; };
+		A6BB342E19DDB51300561318 /* KXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BB342D19DDB51300561318 /* KXWebViewController.m */; };
+		A6D11F0419DDC633005CE5DB /* KXAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D11F0319DDC633005CE5DB /* KXAboutController.m */; };
+		A6D8056819BE14C0009F0EF2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8056719BE14C0009F0EF2 /* libstdc++.6.0.9.dylib */; };
+		A6D8057319BE1694009F0EF2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8057219BE1694009F0EF2 /* CoreImage.framework */; };
+		A6D8057719BE1959009F0EF2 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A6D8057619BE1959009F0EF2 /* tessdata */; };
+		DB2C0F6E83004EE8BBADB525 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11B7A851C14CFF8D74212F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A1FAEEB48C947B19F6435C0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9C11B7A851C14CFF8D74212F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A672552D19BE11A1005FDACB /* UrlHawk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlHawk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A672553019BE11A1005FDACB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A672553219BE11A1005FDACB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +59,28 @@
 		A672554019BE11A1005FDACB /* KXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAppDelegate.m; sourceTree = "<group>"; };
 		A672554319BE11A1005FDACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A672554519BE11A1005FDACB /* KXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXViewController.h; sourceTree = "<group>"; };
-		A672554619BE11A1005FDACB /* KXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXViewController.m; sourceTree = "<group>"; };
+		A672554619BE11A1005FDACB /* KXViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KXViewController.mm; sourceTree = "<group>"; };
 		A672554819BE11A1005FDACB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A672554E19BE11A1005FDACB /* UrlHawkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlHawkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A672554F19BE11A1005FDACB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A672555719BE11A1005FDACB /* UrlHawkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UrlHawkTests-Info.plist"; sourceTree = "<group>"; };
 		A672555919BE11A1005FDACB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A672555B19BE11A1005FDACB /* UrlHawkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlHawkTests.m; sourceTree = "<group>"; };
+		A672556519BE1310005FDACB /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		A672556619BE1310005FDACB /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		A68DE2DE19BE3E3900C52348 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		A68DE2E019BE418D00C52348 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A68DE2E419BE45D700C52348 /* KXRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXRectView.h; sourceTree = "<group>"; };
+		A68DE2E519BE45D700C52348 /* KXRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXRectView.m; sourceTree = "<group>"; };
+		A6966CD719DADA5300F182E0 /* KXDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXDrawView.h; sourceTree = "<group>"; };
+		A6966CD819DADA5300F182E0 /* KXDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXDrawView.m; sourceTree = "<group>"; };
+		A6BB342C19DDB51300561318 /* KXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXWebViewController.h; sourceTree = "<group>"; };
+		A6BB342D19DDB51300561318 /* KXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXWebViewController.m; sourceTree = "<group>"; };
+		A6D11F0219DDC633005CE5DB /* KXAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXAboutController.h; sourceTree = "<group>"; };
+		A6D11F0319DDC633005CE5DB /* KXAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXAboutController.m; sourceTree = "<group>"; };
+		A6D8056719BE14C0009F0EF2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		A6D8057219BE1694009F0EF2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A6D8057619BE1959009F0EF2 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +88,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68DE2E119BE418D00C52348 /* AssetsLibrary.framework in Frameworks */,
+				A6D8057319BE1694009F0EF2 /* CoreImage.framework in Frameworks */,
+				A68DE2DF19BE3E3900C52348 /* opencv2.framework in Frameworks */,
+				A6D8056819BE14C0009F0EF2 /* libstdc++.6.0.9.dylib in Frameworks */,
 				A672553319BE11A1005FDACB /* CoreGraphics.framework in Frameworks */,
 				A672553519BE11A1005FDACB /* UIKit.framework in Frameworks */,
 				A672553119BE11A1005FDACB /* Foundation.framework in Frameworks */,
+				DB2C0F6E83004EE8BBADB525 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +115,12 @@
 		A672552419BE11A0005FDACB = {
 			isa = PBXGroup;
 			children = (
+				A6D8057619BE1959009F0EF2 /* tessdata */,
 				A672553619BE11A1005FDACB /* UrlHawk */,
 				A672555519BE11A1005FDACB /* UrlHawkTests */,
 				A672552F19BE11A1005FDACB /* Frameworks */,
 				A672552E19BE11A1005FDACB /* Products */,
+				9A1FAEEB48C947B19F6435C0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +136,15 @@
 		A672552F19BE11A1005FDACB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A68DE2E019BE418D00C52348 /* AssetsLibrary.framework */,
+				A68DE2DE19BE3E3900C52348 /* opencv2.framework */,
+				A6D8057219BE1694009F0EF2 /* CoreImage.framework */,
+				A6D8056719BE14C0009F0EF2 /* libstdc++.6.0.9.dylib */,
 				A672553019BE11A1005FDACB /* Foundation.framework */,
 				A672553219BE11A1005FDACB /* CoreGraphics.framework */,
 				A672553419BE11A1005FDACB /* UIKit.framework */,
 				A672554F19BE11A1005FDACB /* XCTest.framework */,
+				9C11B7A851C14CFF8D74212F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,12 +152,23 @@
 		A672553619BE11A1005FDACB /* UrlHawk */ = {
 			isa = PBXGroup;
 			children = (
+				A68DE2EE19BE64C800C52348 /* iPad */,
+				A68DE2E419BE45D700C52348 /* KXRectView.h */,
+				A68DE2E519BE45D700C52348 /* KXRectView.m */,
+				A672556519BE1310005FDACB /* AVCamPreviewView.h */,
+				A672556619BE1310005FDACB /* AVCamPreviewView.m */,
+				A6966CD719DADA5300F182E0 /* KXDrawView.h */,
+				A6966CD819DADA5300F182E0 /* KXDrawView.m */,
+				A6D11F0219DDC633005CE5DB /* KXAboutController.h */,
+				A6D11F0319DDC633005CE5DB /* KXAboutController.m */,
+				A6BB342C19DDB51300561318 /* KXWebViewController.h */,
+				A6BB342D19DDB51300561318 /* KXWebViewController.m */,
 				A672553F19BE11A1005FDACB /* KXAppDelegate.h */,
 				A672554019BE11A1005FDACB /* KXAppDelegate.m */,
-				A672554219BE11A1005FDACB /* Main.storyboard */,
 				A672554519BE11A1005FDACB /* KXViewController.h */,
-				A672554619BE11A1005FDACB /* KXViewController.m */,
+				A672554619BE11A1005FDACB /* KXViewController.mm */,
 				A672554819BE11A1005FDACB /* Images.xcassets */,
+				A672554219BE11A1005FDACB /* Main.storyboard */,
 				A672553719BE11A1005FDACB /* Supporting Files */,
 			);
 			path = UrlHawk;
@@ -152,6 +203,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A68DE2EE19BE64C800C52348 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A672555F19BE11A1005FDACB /* Build configuration list for PBXNativeTarget "UrlHawk" */;
 			buildPhases = (
+				F6A325FF1E7142D2A00D4C9B /* Check Pods Manifest.lock */,
 				A672552919BE11A1005FDACB /* Sources */,
 				A672552A19BE11A1005FDACB /* Frameworks */,
 				A672552B19BE11A1005FDACB /* Resources */,
+				27C70EE10BC84B499C4D46BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +260,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Keexa;
 				TargetAttributes = {
+					A672552C19BE11A1005FDACB = {
+						DevelopmentTeam = 46JPN26RRZ;
+					};
 					A672554D19BE11A1005FDACB = {
 						TestTargetID = A672552C19BE11A1005FDACB;
 					};
@@ -230,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A672554919BE11A1005FDACB /* Images.xcassets in Resources */,
+				A6D8057719BE1959009F0EF2 /* tessdata in Resources */,
 				A672553B19BE11A1005FDACB /* InfoPlist.strings in Resources */,
 				A672554419BE11A1005FDACB /* Main.storyboard in Resources */,
 			);
@@ -245,14 +309,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C70EE10BC84B499C4D46BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A325FF1E7142D2A00D4C9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A672552919BE11A1005FDACB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A672554719BE11A1005FDACB /* KXViewController.m in Sources */,
+				A6D11F0419DDC633005CE5DB /* KXAboutController.m in Sources */,
+				A68DE2E619BE45D700C52348 /* KXRectView.m in Sources */,
+				A672554719BE11A1005FDACB /* KXViewController.mm in Sources */,
 				A672553D19BE11A1005FDACB /* main.m in Sources */,
+				A672556719BE1310005FDACB /* AVCamPreviewView.m in Sources */,
 				A672554119BE11A1005FDACB /* KXAppDelegate.m in Sources */,
+				A6966CD919DADA5300F182E0 /* KXDrawView.m in Sources */,
+				A6BB342E19DDB51300561318 /* KXWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +409,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -318,7 +420,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -336,6 +439,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lstdc++";
+				PROVISIONING_PROFILE = "6c27eab2-3e07-4744-b2c9-35a637cba9ce";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -345,7 +450,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -356,7 +461,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -367,6 +473,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-lstdc++";
+				PROVISIONING_PROFILE = "6c27eab2-3e07-4744-b2c9-35a637cba9ce";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -374,26 +482,56 @@
 		};
 		A672556019BE11A1005FDACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1FAEEB48C947B19F6435C0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UrlHawk/UrlHawk-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/TesseractOCRiOS\"",
+					"\"/Users/bonifazi/workspace/UrlHawk/GPUImage-master/framework/Source\"",
+				);
 				INFOPLIST_FILE = "UrlHawk/UrlHawk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6c27eab2-3e07-4744-b2c9-35a637cba9ce";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		A672556119BE11A1005FDACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1FAEEB48C947B19F6435C0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UrlHawk/UrlHawk-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/TesseractOCRiOS\"",
+					"\"/Users/bonifazi/workspace/UrlHawk/GPUImage-master/framework/Source\"",
+				);
 				INFOPLIST_FILE = "UrlHawk/UrlHawk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6c27eab2-3e07-4744-b2c9-35a637cba9ce";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +595,7 @@
 				A672556119BE11A1005FDACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A672556219BE11A1005FDACB /* Build configuration list for PBXNativeTarget "UrlHawkTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +604,7 @@
 				A672556419BE11A1005FDACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
